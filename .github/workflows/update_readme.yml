@@ -17,7 +17,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           COMMIT_MSG: "Update recent activity"
-          MAX_LINES: 10
+          MAX_LINES: 6
           COMMIT_NAME: GitHub Activity Readme
           COMMIT_EMAIL: github-actions[bot]@users.noreply.github.com
           FILTER_EVENTS: PushEvent,CreateEvent,IssueCommentEvent,IssuesEvent,PullRequestEvent,ReleaseEvent,WatchEvent,ForkEvent
